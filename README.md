@@ -54,7 +54,8 @@ The project maintains a high standard of reliability through a multi-layered tes
     * *Focus:* Verifying business logic, JSON parsing, and error handling.
 * **Widget Tests:** Verifies that reusable components render correctly and respond to user interactions.
 * **Mocking:** External dependencies (Firebase Auth, Vertex AI) are mocked to ensure tests are fast, deterministic, and runnable offline.
-
+## Screenshots
+![Image Alt]([image_url](https://github.com/bahtinursinik/craft_ai/blob/9345a42ca3b785b77700a31ada7765daea946732/Screenshot_20260109_131204.png))
 ```bash
 # Run the full test suite
 flutter test
@@ -62,5 +63,4 @@ flutter test
 # Check test coverage
 flutter test --coverage
 
-## Screenshots
-![Image Alt]([image_url](https://github.com/bahtinursinik/craft_ai/blob/9345a42ca3b785b77700a31ada7765daea946732/Screenshot_20260109_131204.png))
+
