@@ -54,8 +54,31 @@ The project maintains a high standard of reliability through a multi-layered tes
     * *Focus:* Verifying business logic, JSON parsing, and error handling.
 * **Widget Tests:** Verifies that reusable components render correctly and respond to user interactions.
 * **Mocking:** External dependencies (Firebase Auth, Vertex AI) are mocked to ensure tests are fast, deterministic, and runnable offline.
-## Screenshots
-![Image Alt]([image_url](https://github.com/bahtinursinik/craft_ai/blob/9345a42ca3b785b77700a31ada7765daea946732/Screenshot_20260109_131204.png))
+🌍 Localization (L10n)
+The app is fully localized for English (en) and Turkish (tr).
+
+Dynamic Locale Handling: The app automatically detects the system locale or respects user preference.
+
+AI Localization: The languageCode is passed directly to the AI Service prompt context. This ensures that Gemini generates content (recipes/workouts) in the same language as the UI, providing a seamless experience.
+
+## 🛠️ Tech Stack
+Framework: Flutter (Dart)
+
+State Management: Provider
+
+AI Model: Google Gemini 2.0 Flash (via firebase_vertexai)
+
+Authentication: Firebase Auth
+
+Architecture: MVVM, Clean Architecture, Repository Pattern
+
+DI: GetIt
+
+Testing: Mocktail, Flutter Test
+
+Utilities: Skeletonizer, Flutter Gen, Equatable
+
+
 ```bash
 # Run the full test suite
 flutter test
