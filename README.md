@@ -78,6 +78,8 @@ Testing: Mocktail, Flutter Test
 
 Utilities: Skeletonizer, Flutter Gen, Equatable
 
+📸 Project Showcase
+
 
 ```bash
 # Run the full test suite
