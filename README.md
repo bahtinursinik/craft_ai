@@ -61,3 +61,6 @@ flutter test
 
 # Check test coverage
 flutter test --coverage
+
+## Screenshots
+![Image Alt]([image_url](https://github.com/bahtinursinik/craft_ai/blob/9345a42ca3b785b77700a31ada7765daea946732/Screenshot_20260109_131204.png))
