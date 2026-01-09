@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "225923450036",
+    "project_id": "smartresourcesai",
+    "storage_bucket": "smartresourcesai.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:225923450036:android:5a00afd0fc4139287e03e1",
+        "android_client_info": {
+          "package_name": "com.bahtinur.smart_resource_ai"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBdj5aAmkOmmc0Wg_cbqDVWOA-U-0868To"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
